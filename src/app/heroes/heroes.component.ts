@@ -18,7 +18,9 @@ export class HeroesComponent implements OnInit {
 
   ngOnInit(): void {}
 
+  // assign click event handler
   onSelect(hero: Hero): void {
+    // assigns selectedHero properties
     this.selectedHero = hero;
   }
 }
