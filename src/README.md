@@ -15,3 +15,7 @@ Services focus on presenting data and delegate data access to a service.
 From this [tutorial](https://angular.io/tutorial/toh-pt4) it will mock data.
 
 > ng generate service <serviceName>
+
+## How to generate AppRoutingModule
+
+> ng generate module app-routing --flat --module=app
